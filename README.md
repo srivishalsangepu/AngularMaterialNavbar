@@ -1,3 +1,7 @@
+# Angular Navigation Bar and Side Navigation bar Example for Beginners.
+
+This is an Angular Material Navigation Bar and Side Navigation Bar for Beginners.
+
 # AngularMaterial
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
