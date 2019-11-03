@@ -1,0 +1,20 @@
+
+<mat-toolbar color="primary" class="navbar">
+    <span color="primary" (click)="opened = !opened">
+        <mat-icon>menu</mat-icon>
+    </span> Navigation Bar and Side Navigation Bar
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav #sideNav [(opened)]="opened" mode="side">
+    <ul>
+      <li  color="primary" routerLink="employees">Get Emplyees</li>
+      <mat-divider></mat-divider>
+      <li  color="primary" routerLink="students">Get Students</li>
+    </ul>
+      <!-- <button mat-raised-button routerLink="employees">Get Employees</button>
+      <button mat-raised-button routerLink="students">Get Students</button> -->
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

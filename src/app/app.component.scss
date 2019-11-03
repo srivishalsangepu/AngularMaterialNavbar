@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 10px;
+  li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  li:hover{
+    background: #3f51b5;
+    color: white;
+    cursor: pointer;
+  }
+}
+.navbar{
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+mat-sidenav{
+width: 200px;
+cursor: pointer;
+background: #ef9250;
+position: fixed;
+position: -webkit-sticky; /* For macOS/iOS Safari */
+top: 55px; /* Sets the sticky toolbar to be on top */
+z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+mat-icon{
+  cursor: pointer;
+}

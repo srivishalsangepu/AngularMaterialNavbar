@@ -1,0 +1,8 @@
+<mat-card>
+    <mat-card-title>
+        {{title}}
+    </mat-card-title>
+    <mat-card-content>
+        <app-table [dataSource]="studentdetails" [displayedColumns]="displayedColumns" [user]="isStudent"></app-table>
+    </mat-card-content>
+</mat-card>
